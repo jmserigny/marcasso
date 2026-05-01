@@ -1,0 +1,121 @@
+/* MARC — Ma Rééducation Collective — redesign tokens */
+:root {
+  /* Warm, hopeful, credible. Cream + ink + a coral that feels human. */
+  --ink: #2a2a2a;        /* logo charcoal */
+  --ink-2: #4a4a4a;
+  --ink-3: #7a7a7a;
+  --rule: #e0ddd6;
+  --paper: #f7f5f0;
+  --paper-2: #ecebe4;
+  --card: #ffffff;
+  --accent: #c41e1e;     /* logo red — primary */
+  --accent-deep: #931515;
+  --accent-soft: #f4cccc;
+  --leaf: #4a9c4a;       /* logo green */
+  --leaf-deep: #2f6e2f;
+  --leaf-soft: #cfe5cf;
+  --sky: #3a7ec4;        /* logo blue */
+  --sky-deep: #245a93;
+  --sky-soft: #cfe0f2;
+  --gold: #d9a441;
+
+  --serif: "Fraunces", "Cormorant Garamond", "Times New Roman", serif;
+  --sans: "Inter Tight", "Inter", system-ui, -apple-system, "Helvetica Neue", sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, "SF Mono", monospace;
+}
+
+/* Override Fraunces guidance: we use it intentionally here, with custom OPSZ. */
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  font-family: var(--sans);
+  color: var(--ink);
+  background: var(--paper);
+  font-size: 17px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+img { max-width: 100%; display: block; }
+
+/* TYPE */
+.display {
+  font-family: var(--serif);
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: -0.02em;
+  line-height: 0.95;
+  font-variation-settings: "opsz" 144, "SOFT" 30;
+  text-wrap: balance;
+}
+.eyebrow {
+  font-family: var(--sans);
+  font-size: 12px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--ink-2);
+}
+.kicker {
+  font-family: var(--serif);
+  font-style: italic;
+  font-weight: 300;
+  color: var(--accent-deep);
+}
+
+/* layout */
+.wrap { max-width: 1280px; margin: 0 auto; padding: 0 32px; }
+.wrap-narrow { max-width: 880px; margin: 0 auto; padding: 0 32px; }
+
+/* buttons */
+.btn {
+  display: inline-flex; align-items: center; gap: 10px;
+  padding: 14px 22px;
+  border-radius: 999px;
+  font-family: var(--sans);
+  font-weight: 600;
+  font-size: 15px;
+  text-decoration: none;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: transform .15s ease, background .2s ease, color .2s ease;
+}
+.btn:hover { transform: translateY(-1px); }
+.btn-primary { background: var(--accent); color: #fff; }
+.btn-primary:hover { background: var(--accent-deep); }
+.btn-ghost { background: transparent; color: var(--ink); border-color: var(--ink); }
+.btn-ghost:hover { background: var(--ink); color: var(--paper); }
+.btn-paper { background: var(--card); color: var(--ink); border-color: var(--rule); }
+.btn-paper:hover { background: #fff; }
+
+.rule { height: 1px; background: var(--rule); border: 0; margin: 0; }
+
+/* tag */
+.tag {
+  display: inline-flex; align-items: center; gap: 6px;
+  font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase;
+  font-weight: 600; padding: 6px 10px; border-radius: 999px;
+  background: var(--paper-2); color: var(--ink-2);
+}
+.tag-accent { background: var(--accent-soft); color: var(--accent-deep); }
+.tag-leaf { background: var(--leaf-soft); color: #2f4724; }
+.tag-sky { background: #cdd9e3; color: #2c4459; }
+
+/* dot */
+.dot { width: 6px; height: 6px; border-radius: 999px; background: currentColor; }
+
+/* utility */
+.serif { font-family: var(--serif); }
+.italic { font-style: italic; }
+.muted { color: var(--ink-3); }
+
+/* fade-in */
+@keyframes fadeUp { from { opacity: 0; transform: translateY(8px);} to { opacity: 1; transform: none;} }
+.fade-up { animation: fadeUp .6s ease both; }
+
+/* reduce motion */
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}

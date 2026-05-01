@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "make-a-wish-2026",
+    "date_fr": "Avril 2026",
+    "date_en": "April 2026",
+    "tag": "Make-A-Wish",
+    "accent": "leaf",
+    "title_fr": "Le rêve de Marc devient réalité",
+    "title_en": "Marc's dream comes true",
+    "excerpt_fr": "Rencontrer son YouTubeur préféré : FuzeIII. Living the Dream à ESpot Paris. Visite de la Tour Eiffel, bateau-mouche sur la Seine. Deux jours hors du temps, parfaitement organisés par Make-A-Wish® France.",
+    "excerpt_en": "Meeting his favorite YouTuber: FuzeIII. Living the Dream at ESpot Paris. Eiffel Tower, river cruise on the Seine. Two days outside of time, organized by Make-A-Wish® France.",
+    "file": "articles/make-a-wish-2026.html"
+  },
+  {
+    "slug": "cannes-2025",
+    "date_fr": "Mai 2025",
+    "date_en": "May 2025",
+    "tag": "Festival de Cannes",
+    "accent": "accent",
+    "title_fr": "Les Écrans Inclusifs · 1ʳᵉ édition",
+    "title_en": "Inclusive Screens · 1st edition",
+    "excerpt_fr": "Marc, 13 ans, passionné d'audiovisuel, assiste aux tables rondes du SPCH au Festival de Cannes.",
+    "excerpt_en": "Marc, 13, an audiovisual enthusiast, attends the SPCH roundtables at the Cannes Festival.",
+    "file": "articles/cannes-2025.html"
+  },
+  {
+    "slug": "podcast-mothers-fight",
+    "date_fr": "2025",
+    "date_en": "2025",
+    "tag": "Podcast",
+    "accent": "sky",
+    "title_fr": "A Mother's Fight — Marc's Cardiac Arrest Survival Story",
+    "title_en": "A Mother's Fight — Marc's Cardiac Arrest Survival Story",
+    "excerpt_fr": "Premier podcast en anglais avec Manny Medina, ambulancier et défenseur de la santé cardiaque pédiatrique.",
+    "excerpt_en": "First podcast in English with Manny Medina, paramedic and pediatric heart-health advocate.",
+    "file": "articles/podcast-mothers-fight.html"
+  }
+]
