@@ -11,7 +11,7 @@
       <header class="site-header" id="site-header">
         <div class="wrap header-inner">
           <a href="#top" class="brand" aria-label="MaRC — Ma Rééducation Collective">
-            <img src="assets/logo.png" alt="MaRC — Ma Rééducation Collective" class="brand-mark"/>
+            <img src="assets/images/logo.png" alt="MaRC — Ma Rééducation Collective" class="brand-mark"/>
           </a>
           <nav class="site-nav">${raw(navItems)}</nav>
           <div class="header-actions">

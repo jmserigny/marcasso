@@ -8,7 +8,7 @@
         <div class="wrap footer-grid">
           <div class="footer-brand">
             <div class="footer-logo">
-              <img src="assets/logo.png" alt="MaRC" class="footer-logo-img"/>
+              <img src="assets/images/logo.png" alt="MaRC" class="footer-logo-img"/>
             </div>
             <p class="muted footer-tag">${t.footer_tag}</p>
             <p class="muted footer-siret">SIRET 923 805 808 00014</p>
