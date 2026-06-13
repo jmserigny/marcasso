@@ -14,6 +14,9 @@ get_header(); ?>
     <div id="app-hero">
       <?php get_template_part( 'template-parts/hero'); ?>
     </div>
+    <div id="conference">
+      <?php get_template_part( 'template-parts/conference'); ?>
+    </div>
     <div id="app-mission">
       <?php get_template_part( 'template-parts/mission'); ?>
     </div>
