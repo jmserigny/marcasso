@@ -210,7 +210,6 @@
 }
 .story-book-cover {
   aspect-ratio: 2/3;
-  background: linear-gradient(160deg, #931515 0%, #c41e1e 60%, #3a7ec4 100%);
   color: #fff; padding: 18px; border-radius: 2px;
   display: flex; flex-direction: column; justify-content: space-between;
   box-shadow: 0 14px 28px -10px rgba(0,0,0,0.3);

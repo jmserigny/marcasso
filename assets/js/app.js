@@ -18,17 +18,27 @@
 
     document.documentElement.setAttribute('lang', lang);
 
-    document.getElementById('app-header').innerHTML  = S.header.render(t, lang);
+    if (document.getElementById('app-header')) {
+      document.getElementById('app-header').innerHTML  = S.header.render(t, lang);
+    }
     document.getElementById('app-hero').innerHTML    = S.hero.render(t);
     document.getElementById('app-mission').innerHTML = S.mission.render(t);
     document.getElementById('app-story').innerHTML   = S.story.render(t);
     document.getElementById('app-therapies').innerHTML = S.therapies.render(t, data.therapies);
-    document.getElementById('app-news').innerHTML    = S.news.render(t, lang, data.newsFallback);
+    if (document.getElementById('app-news')) {
+      document.getElementById('app-news').innerHTML    = S.news.render(t, lang, data.newsFallback);
+    }
     document.getElementById('app-join').innerHTML    = S.join.render(t);
-    document.getElementById('app-footer').innerHTML  = S.footer.render(t);
+    if (document.getElementById('app-footer')) {
+      document.getElementById('app-footer').innerHTML  = S.footer.render(t);
+    }
 
-    S.header.bind();
-    S.news.bind(t, lang);
+    if (S.header) {
+      S.header.bind();
+    }
+    if (S.news) {
+      S.news.bind(t, lang);
+    }
   }
 
   MARC.lang = getInitialLang();

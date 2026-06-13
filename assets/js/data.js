@@ -37,7 +37,7 @@ window.SITE_DATA = {
         { y: "2016", t: "L'arrêt", d: "CHU de Grenoble. Déchocage, soins intensifs, MPR. Hospitalisé jusqu'en mai." },
         { y: "2016–2019", t: "Le cœur", d: "Cinq opérations cardiaques pour soigner le syndrome Wolff-Parkinson-White. La dernière à Milan." },
         { y: "2017→", t: "Le tour du monde", d: "Espagne, Pologne, Allemagne, Bulgarie, Israël, Russie, USA. À chaque pays, un protocole." },
-        { y: "Aujourd'hui", t: "6ᵉ ULIS", d: "Marc est en classe de 6ᵉ avec une AESH. Il veut être YouTubeur. Il a rencontré FuzeIII en avril 2026." }
+        { y: "Aujourd'hui", t: "4ᵉ ULIS", d: "Marc est en classe de 6ᵉ avec une AESH. Il veut être YouTubeur. Il a rencontré FuzeIII en avril 2026." }
       ],
       story_pull: "« Au jour de ta naissance, le monde est devenu plus coloré et plus gentil. »",
       story_pull_attr: "— sa maman, pour son anniversaire",
@@ -113,7 +113,7 @@ window.SITE_DATA = {
         { y: "2016", t: "The arrest", d: "Grenoble University Hospital. Resuscitation, ICU, rehabilitation ward. Hospitalized until May." },
         { y: "2016–2019", t: "The heart", d: "Five cardiac surgeries to treat Wolff-Parkinson-White syndrome. The last one in Milan." },
         { y: "2017→", t: "Around the world", d: "Spain, Poland, Germany, Bulgaria, Israel, Russia, USA. In every country, a protocol." },
-        { y: "Today", t: "6th grade ULIS", d: "Marc is in 6th grade with a learning aide. He wants to be a YouTuber. He met FuzeIII in April 2026." }
+        { y: "Today", t: "4th grade ULIS", d: "Marc is in 6th grade with a learning aide. He wants to be a YouTuber. He met FuzeIII in April 2026." }
       ],
       story_pull: "“The day you were born, the world became more colorful and kinder.”",
       story_pull_attr: "— his mother, on his birthday",
